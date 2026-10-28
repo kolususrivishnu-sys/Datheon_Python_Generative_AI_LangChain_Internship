@@ -1,0 +1,24 @@
+DATHEON AI INTERNSHIP - SAMPLE DOCUMENT
+
+PROJECT NAME
+Smart Library Assistant
+
+TECHNOLOGY STACK
+Python is used for programming.
+LangChain handles document processing and retrieval.
+ChromaDB stores document embeddings.
+Google Gemini generates embeddings and answers questions.
+
+DOCUMENT PROCESSING
+PDF files are loaded page by page.
+Text files are loaded as plain text.
+Long documents are split into smaller overlapping chunks.
+The assistant retrieves up to four relevant chunks for each question.
+
+QUESTION ANSWERING
+The assistant answers questions using retrieved document context.
+It displays source document names and available PDF page numbers.
+If information is missing, it says it could not find the answer.
+
+SECURITY
+API keys must be stored locally and never published on GitHub.
